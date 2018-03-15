@@ -1,0 +1,28 @@
+{
+  "name": "gatsby-emotional-starter",
+  "version": "0.1.2",
+  "description": "Gatsby starter package with Emotion",
+  "main": "n/a",
+  "author": "Cserei Zoltán <z@holist.io>",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "emotion"
+  ],
+  "dependencies": {
+    "emotion": "^8.0.10",
+    "emotion-server": "^8.0.10",
+    "emotion-theming": "^8.0.10",
+    "gatsby": "^1.9.108",
+    "gatsby-link": "^1.6.26",
+    "gatsby-plugin-emotion": "^1.1.8",
+    "gatsby-plugin-google-analytics": "^1.0.12",
+    "gatsby-plugin-manifest": "^1.0.8",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-source-filesystem": "^1.5.8",
+    "react-emotion": "^8.0.10",
+    "typography": "^0.16.6",
+    "typography-theme-stardust": "^0.16.11"
+  }
+}

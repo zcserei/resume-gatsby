@@ -2,13 +2,14 @@ import React from 'react'
 
 import { Container } from '../components/_styled'
 
-import { Education, Experience, Factsheet, Footer, Header, Introduction, Process, Skills, Tools } from '../components'
+import { Education, Experience, Factsheet, Footer, Header, Introduction, Personal, Process, Skills, Tools } from '../components'
 
 const IndexPage = () => (
   <Container>
     <Header />
     <Introduction />
     <Factsheet />
+    <Personal />
     <Experience />
     <Education />
     <Process />

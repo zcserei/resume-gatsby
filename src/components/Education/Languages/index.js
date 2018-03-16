@@ -86,7 +86,7 @@ const Languages = () => {
         </ListItem>
         <ListItem>
           <Bullet>DE</Bullet>
-          <Details>I can communicate German-speaking clients without issues</Details>
+          <Details>I can communicate with German-speaking clients without issues</Details>
         </ListItem>
       </List>
     </Wrapper>

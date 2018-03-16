@@ -66,7 +66,7 @@ const Institutions = () => {
           <Description>I initiated a platform dedicated to raising awareness about common Hungarian grammatical, orthographical and spelling errors. The initiative reached a follower count of more than 9000 and reached more than 200000 people.</Description>
         </ListItem>
         <ListItem>
-          <Period>2016 &mdash; <em>heute</em></Period>
+          <Period>2014 &mdash; 2016</Period>
           <Organization>Verselő</Organization>
           <Position>Founder &amp; Project Lead</Position>
           <Description>After realizing that I almost lost my handwriting, I initiated a platform where poetry lovers would send in handwritten parts of their favorite poems on a daily basis. We also collaborated with contemporary Hungarian poets, whose poems were featured every Sunday.</Description>

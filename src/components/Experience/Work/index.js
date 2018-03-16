@@ -55,19 +55,19 @@ const Experience = () => {
           <Period>2014 &mdash; <em>today</em></Period>
           <Organization>Holistio</Organization>
           <Position>Founder &amp; CEO</Position>
-          <Description>Holistio is a remote digital agency I founded and headed in the last 4 years. We offered a range of services mainly focusing on web application development and experience design. Our size constraints came with advantages: working with small and medium-sized businesses we had the opportunity to fully undestand their needs, talk directly with upper management and work under the pressure of the knowledge that whatever we do can easily be classified as “mission critical”. We had the honour to work with dozens of clients from 9 different countries.</Description>
+          <Description>Holistio is a remote digital agency I founded and headed in the last 4 years. We offered a range of services mainly focusing on web application development and experience design. Our size constraints came with advantages: working with small and medium-sized businesses we had the opportunity to fully undestand their needs, always talk directly with upper management and work under the pressure of knowing that whatever we do can easily be classified as “mission critical”. We had the honour to work with dozens of clients from 9 different countries.</Description>
         </ListItem>
         <ListItem>
           <Period>2016 &mdash; <em>today</em></Period>
           <Organization>Agrocket</Organization>
           <Position>Founder &amp; CEO</Position>
-          <Description>Agrocket is an IoT startup focused on improving the yield of crops in large scale agriculture by analyzing field data and crunching it through machine learning systems. I am responsible for coordinating the venture and building the API clients for the service.</Description>
+          <Description>Agrocket is an IoT startup focused on improving the yield of crops in large scale agriculture by analyzing field data and crunching it through machine learning systems. I am responsible for coordinating the venture and building the API clients for the service. Agrocket is planned to launch Q4 2018.</Description>
         </ListItem>
         <ListItem>
           <Period>2018 &mdash; <em>today</em></Period>
           <Organization>Moonka.space</Organization>
           <Position>Founder &amp; CEO</Position>
-          <Description>Moonka started out as a pun on the Hungarian word for work: “munka”. Our tiny team of two is working hard to solve a problem that is less technical, rather communicational: how we can build a platform for job seekers in digital fields where we can forego the usual clichés regarding “dynamic teams” and “competitive salary packages” and focus on what the actual problems the candidates will have to solve are and how </Description>
+          <Description>Moonka started out as a pun on the Hungarian word for work: “munka”. Our tiny team of two is working hard to solve a problem that is less technical, rather communicational: how we can build a platform for job seekers in digital fields where we can forego the usual clichés regarding “dynamic teams” and “competitive salary packages” and focus on what the actual problems the candidates will have to solve are and how they can develop in their new roles.</Description>
         </ListItem>
         <ListItem>
           <Period>2015 &mdash; 2016</Period>

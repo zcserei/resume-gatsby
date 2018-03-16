@@ -54,24 +54,12 @@ const Facts = () => {
     <Wrapper>
       <List>
         <ListItem>
-          <Bullet>50</Bullet>
-          <Details>I hitchhiked a 50 year old soviet truck in rural Armenia</Details>
-        </ListItem>
-        <ListItem>
-          <Bullet>14</Bullet>
-          <Details>when I was 14 I interviewed Wordpress founder Matt Mullenweg</Details>
-        </ListItem>
-        <ListItem>
-          <Bullet>1M</Bullet>
-          <Details>my teenage blog about reviewing Linux distributions passed a million pageviews</Details>
+          <Bullet>03</Bullet>
+          <Details>three years ago I dropped out and started my own software company</Details>
         </ListItem>
         <ListItem>
           <Bullet>05</Bullet>
           <Details>when I was 5 I signed up to be a paperboy and started earning my own $$$</Details>
-        </ListItem>
-        <ListItem>
-          <Bullet>03</Bullet>
-          <Details>three years ago I dropped out and started my own software company</Details>
         </ListItem>
         <ListItem>
           <Bullet>09</Bullet>
@@ -82,8 +70,20 @@ const Facts = () => {
           <Details>I have participated in national or international competitions in 11 different school subjects</Details>
         </ListItem>
         <ListItem>
+          <Bullet>14</Bullet>
+          <Details>when I was 14 I interviewed Wordpress founder Matt Mullenweg</Details>
+        </ListItem>
+        <ListItem>
+          <Bullet>50</Bullet>
+          <Details>I hitchhiked a 50 year old soviet truck in rural Armenia</Details>
+        </ListItem>
+        <ListItem>
           <Bullet>3K</Bullet>
           <Details>I once wrote a rage post about a social issue that got shared more than 3000 times</Details>
+        </ListItem>
+        <ListItem>
+          <Bullet>1M</Bullet>
+          <Details>my teenage blog about reviewing Linux distributions passed a million pageviews</Details>
         </ListItem>
       </List>
     </Wrapper>

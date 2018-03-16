@@ -42,10 +42,6 @@ const Subtitle = styled('h2')`
   }
 `
 
-const Pre = styled('pre')`
-  display: inline;
-`
-
 const Contributions = () => {
   return (
     <Wrapper>
@@ -59,7 +55,7 @@ const Contributions = () => {
         <ListItem>
           <Period>2015 &mdash; <em>today</em></Period>
           <Organization>Open Source</Organization>
-          <Description>I have been contributing to various open source projects with tiny patches for a while. I am very proud that I have finally released my first very own, albeit very tiny package. I have been using <Pre>styled-components</Pre> for styling React components for a while, but when I noticed that <Pre>emotion</Pre> has a logo resembling David Bowie I knew there was no turning back. I came up with a tiny package called <Pre>gatsby-emotional-starter</Pre> that makes starting Gatsby projects using <Pre>emotion</Pre> a lot faster.</Description>
+          <Description>I have been contributing to various open source projects with tiny patches for a while. I am very proud that I have finally released my first very own, albeit very tiny package. I have been using <em>styled-components</em> for styling React components for a while, but when I noticed that <em>emotion</em> has a logo resembling David Bowie I knew there was no turning back. I came up with a tiny package called <em>gatsby-emotional-starter</em> that makes starting Gatsby projects using <em>emotion</em> a lot faster.</Description>
         </ListItem>
       </List>
     </Wrapper>

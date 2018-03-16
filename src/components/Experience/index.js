@@ -1,8 +1,20 @@
 import React from 'react'
 
+import { FlexContainer } from '../_styled'
+
+import Institutions from './Institutions'
+import Work from './Work'
+
 const Experience = () => {
   return (
-    <h1>experience</h1>
+    <div>
+      <FlexContainer>
+        <Work />
+      </FlexContainer>
+      <FlexContainer>
+        <Institutions />
+      </FlexContainer>
+    </div>
   )
 }
 

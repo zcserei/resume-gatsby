@@ -1,8 +1,20 @@
 import React from 'react'
 
+import { FlexContainer } from '../_styled'
+
+import Description from './Description'
+import Steps from './Steps'
+
 const Process = () => {
   return (
-    <h1>process</h1>
+    <div>
+      <FlexContainer>
+        <Description />
+      </FlexContainer>
+      <FlexContainer>
+        <Steps />
+      </FlexContainer>
+    </div>
   )
 }
 

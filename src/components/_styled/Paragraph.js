@@ -6,6 +6,7 @@ const Paragraph = styled('p')`
   font-size: 1.2rem;
   line-height: 1.5;
   margin: 0;
+  display: block;
 
   @media (min-width: 1025px) {
     font-size: 1.4rem;

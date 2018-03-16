@@ -1,19 +1,25 @@
 import React from 'react'
 import styled from 'react-emotion'
 
-import { Description, Link, List, ListItem, Organization, Period, Position } from '../../_styled'
+import { Description, List, ListItem, Organization, Period, Position } from '../../_styled'
 
 const Wrapper = styled('div')`
   padding: 0;
   width: 100%;
-  margin-bottom: 2rem;
+  ul {
+    li {
+      &:last-child {
+        margin-bottom: 1rem;
+      }
+    }
+  }
 
   @media (min-width: 415px) {
-      margin: 0 1rem 2rem 1rem;
-    }
+    margin: 0 1rem;
+  }
 
   @media (min-width: 769px) {
-    margin: 0 0 3rem 0;
+    margin: 0;
     ul {
       justify-content: start;
       li {
@@ -38,7 +44,7 @@ const Subtitle = styled('h2')`
   }
 
   @media (min-width: 769px) {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 `
 

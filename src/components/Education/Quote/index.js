@@ -8,7 +8,7 @@ const Wrapper = styled('div')`
   ${fuzzyBackground};
   display: flex;
   padding: 1rem;
-
+  margin-bottom: 1rem;
   .offset {
     display: none;
   }

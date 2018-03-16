@@ -23,6 +23,8 @@ const Wrapper = styled('div')`
 
   @media (min-width: 769px) {
     padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     .offset {
       display: flex;
     }
@@ -32,7 +34,7 @@ const Wrapper = styled('div')`
 const Description = () => {
   return (
     <Wrapper>
-      <FlexElement flex={1} order={1} className='offset'/>
+      <FlexElement flex={1} order={1} className='offset' />
       <FlexElement flex={3} order={2}>
         <div>
           <SectionTitle>&mdash; seeing it through</SectionTitle>

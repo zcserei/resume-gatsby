@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'react-emotion'
 
-import { Paragraph } from '../../_styled'
+import { Description } from '../../_styled'
 
 const Wrapper = styled('div')`
   width: 100%;
@@ -49,13 +49,13 @@ const ListItem = styled('li')`
   }
 `
 
-const Description = styled('div')`
+const Header = styled('h3')`
   color: ${props => props.theme.colors.white};
   margin: 0;
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 300;
-
+  display: inline;
   @media (min-width: 769px) {
     font-size: 1.4rem;
   }
@@ -67,6 +67,16 @@ const Count = styled('div')`
   font-weight: 600;
   line-height: 1.5;
   margin-right: 1rem;
+  display: inline;
+`
+
+const Column = styled('div')`
+  display: flex;
+  flex-direction: column;
+`
+
+const Top = styled('div')`
+  margin-bottom: 1rem;
 `
 
 const Introduction = () => {
@@ -74,24 +84,40 @@ const Introduction = () => {
     <Wrapper>
       <List>
         <ListItem>
-          <Count>1.</Count>
-          <Description>Imagine</Description>
-          <Paragraph>Ideas come and go: finding proper solutions and understanding what it takes to make the feasible is not always obvious. I am always willing to take part in the process of planning.</Paragraph>
+          <Column>
+            <Top>
+              <Count>1.</Count>
+              <Header>Imagine</Header>
+            </Top>
+            <Description>Ideas come and go: finding proper solutions and understanding what it takes to make the feasible is not always obvious. I am always willing to take part in the process of planning.</Description>
+          </Column>
         </ListItem>
         <ListItem>
-          <Count>2.</Count>
-          <Description>See</Description>
-          <Paragraph>I have worked in various branding and experience design processes. My belief is that it is always the information that we want to share that needs to be in focus, once that is figured out, the rest almost handles itself.</Paragraph>
+          <Column>
+            <Top>
+              <Count>2.</Count>
+              <Header>See</Header>
+            </Top>
+            <Description>I have worked in various branding and experience design processes. My belief is that it is always the information that we want to share that needs to be in focus, once that is figured out, the rest almost handles itself.</Description>
+          </Column>
         </ListItem>
         <ListItem>
-          <Count>3.</Count>
-          <Description>Breathe</Description>
-          <Paragraph>The fun part: above all else, I love when after f$#@loads of cursing something finally starts to take shape. I get my high on killing them bugs.</Paragraph>
+          <Column>
+            <Top>
+              <Count>3.</Count>
+              <Header>Breathe</Header>
+            </Top>
+            <Description>The fun part: above all else, I love when after f$#@loads of cursing something finally starts to take shape. I get my high on killing them bugs.</Description>
+          </Column>
         </ListItem>
         <ListItem>
-          <Count>4.</Count>
-          <Description>Move</Description>
-          <Paragraph>Without communicating and reaching out to users and various audiences the whole process can often become useless: finding how to emit valuable signals in the ocean of noise is a challenge in itself.</Paragraph>
+          <Column>
+            <Top>
+              <Count>4.</Count>
+              <Header>Move</Header>
+            </Top>
+            <Description>Without communicating and reaching out to users and various audiences the whole process can often become useless: finding how to emit valuable signals in the ocean of noise is a challenge in itself.</Description>
+          </Column>
         </ListItem>
       </List>
     </Wrapper>

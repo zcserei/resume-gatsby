@@ -6,14 +6,20 @@ import { Description, List, ListItem, Organization, Period, Position } from '../
 const Wrapper = styled('div')`
   padding: 0;
   width: 100%;
-  margin-bottom: 2rem;
+  ul {
+    li {
+      &:last-child {
+        margin-bottom: 1rem;
+      }
+    }
+  }
 
   @media (min-width: 415px) {
-      margin: 0 1rem 2rem 1rem;
-    }
+    margin: 0 1rem;
+  }
 
   @media (min-width: 769px) {
-    margin: 0 0 3rem 0;
+    margin: 0;
     ul {
       justify-content: start;
       li {

@@ -42,7 +42,7 @@ const Subtitle = styled('h2')`
   }
 
   @media (min-width: 769px) {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 `
 

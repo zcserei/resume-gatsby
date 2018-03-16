@@ -1,11 +1,5 @@
 import React from 'react'
 
-import faviconApple from './favicons/apple-touch-icon.png'
-import favicon32 from './favicons/favicon-32x32.png'
-import favicon16 from './favicons/favicon-16x16.png'
-import safariPinned from './favicons/safari-pinned-tab.svg'
-import faviconICO from './favicons/favicon.ico'
-
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
   try {
@@ -29,7 +23,7 @@ module.exports = class HTML extends React.Component {
     return (
       <html {...this.props.htmlAttributes}>
         <head>
-          <title>bvs-Tischhauser</title>
+          <title>Cserei Zoltán</title>
           <meta charSet='utf-8' />
           <meta httpEquiv='x-ua-compatible' content='ie=edge' />
           <meta
@@ -38,11 +32,6 @@ module.exports = class HTML extends React.Component {
           />
           {this.props.headComponents}
           {css}
-          <link rel='apple-touch-icon' sizes='180x180' href={faviconApple} />
-          <link rel='icon' type='image/png' sizes='32x32' href={favicon32} />
-          <link rel='icon' type='image/png' sizes='16x16' href={favicon16} />
-          <link rel='mask-icon' href={safariPinned} color='#a89472' />
-          <link rel='shortcut icon' href={faviconICO} />
           <meta name='theme-color' content='#df0d47' />
         </head>
         <body {...this.props.bodyAttributes}>

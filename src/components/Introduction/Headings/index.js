@@ -43,7 +43,7 @@ const Headings = () => {
       <BrandHeading>see</BrandHeading>
       <BrandHeading>breathe</BrandHeading>
       <BrandHeading>move<Blink>_</Blink></BrandHeading>
-      <Tagline>or how I approach turning fragile ideas into products</Tagline>
+      <Tagline>or how I approach turning fragile ideas into solid experiences</Tagline>
     </Wrapper>
   )
 }

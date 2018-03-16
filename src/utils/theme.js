@@ -1,10 +1,10 @@
 const theme = {
   colors: {
-    blue: 'rgba(51, 51, 255, 1)',
-    concrete: 'rgba(243, 243, 243, 1)',
-    concrete_half: 'rgba(243, 243, 243, 0.5)',
-    spring_green: 'rgba(51, 255, 177, 1)',
-    mineshaft: 'rgba(34, 34, 34, 1)'
+    alto: 'rgba(215, 215, 215, 1)',
+    red_ribbon: 'rgba(224, 13, 72, 1)',
+    mineshaft: 'rgba(22, 22, 22, 1)',
+    white: 'rgba(255, 255, 255, 1)',
+    shade: 'rgba(255, 255, 255, 0.05)'
   }
 }
 

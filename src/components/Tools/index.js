@@ -1,8 +1,20 @@
 import React from 'react'
 
+import { FlexContainer } from '../_styled'
+
+import Description from './Description'
+import ToolList from './ToolList'
+
 const Tools = () => {
   return (
-    <h1>tools</h1>
+    <div>
+      <FlexContainer>
+        <Description />
+      </FlexContainer>
+      <FlexContainer>
+        <ToolList />
+      </FlexContainer>
+    </div>
   )
 }
 

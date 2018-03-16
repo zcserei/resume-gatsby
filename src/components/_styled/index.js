@@ -1,5 +1,7 @@
 export { default as Blink } from './Blink'
 export { default as Container } from './Container'
+export { default as FlexContainer } from './FlexContainer'
+export { default as FlexElement } from './FlexElement'
 export { default as Highlight } from './Highlight'
 export { default as Paragraph } from './Paragraph'
 export { default as Signature } from './Signature'

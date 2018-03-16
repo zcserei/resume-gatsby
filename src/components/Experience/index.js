@@ -2,6 +2,7 @@ import React from 'react'
 
 import { FlexContainer } from '../_styled'
 
+import Contributions from './Contributions'
 import Institutions from './Institutions'
 import Work from './Work'
 
@@ -13,6 +14,9 @@ const Experience = () => {
       </FlexContainer>
       <FlexContainer>
         <Institutions />
+      </FlexContainer>
+      <FlexContainer>
+        <Contributions />
       </FlexContainer>
     </div>
   )

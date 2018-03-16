@@ -23,14 +23,14 @@ const Greeting = () => {
     <Wrapper>
       <Paragraph css={`
         text-indent: 5%;
-      `}>Als Pragmatiker ist mein Interesse und Engagement die Menschen zu verstehen und organisch gemeinsam von Grund auf erfolgreich zu werden. Dies habe ich selbst umgesetzt und gründete im Jahre 1996 eine Firma in der Lüftungshygiene, welche ich innert 10 Jahren mit einer erfolgreichen Firmenkultur zum Markleader mit über 50 Mitarbeitern aufgebaut habe. Diese konnte ich im Zuge der Nachfolgeregelung im Jahre 2009 an Walter Meier AG erfolgreich verkaufen.</Paragraph>
+      `}>“You can’t connect the dots looking forward” &mdash; well before I heard Steve Jobs’ now iconic commencement speech at Stanford, these thoughts resonated with me. All I knew was that I wanted to collect dots and build graphs out of them in my head, so starting from my earliest school years, I signed up for all the possible competitions in all the subjects. My fondest memories are when I could finally grasp an edge on these graphs that I drew in my head. My attitude has been the same ever since: wander around looking for connections between first principles and marvel at their interconnectedness. </Paragraph>
       <Paragraph css={`
         text-indent: 5%;
-      `}>Seitdem befasse ich mich noch Intensiver mit der Förderung der Menschen, Firmen und Organisationen und selbstverständlich auch für eine gesunde Raumluft, mit der Plattform „<Highlight>MeineRaumluft.ch</Highlight>“ wo wir die grösste Raumluftmessaktion in D+F durchführen, inkl. Bürogebäude.</Paragraph>
+      `}>My first encounter with programming was when I was in fifth grade: a student newspaper published a very basic HTML course and while I did and sometimes still do consider myself being closer to humanities, but the possibility of having a tool this powerful at my hands for expressing my ideas swept me in and I’ve been looking for new ways to turn ideas into code and code into ideas ever since in the last 14 years.</Paragraph>
       <Paragraph css={`
         text-indent: 5%;
-      `}>Gerne gebe ich meine Erfahrungen als Geschäftsleitungsmitglied, Unternehmer, Verwaltungsrat, Berater, Mentor, Vereinspräsident und Plattformleiter, Ihrem Unternehmen weiter. Gemeinsam können wir das vorhandene Potential ihres Unternehmens erfolgreich weiterentwickeln. Dafür stehe ich mit meinem Namen ein.</Paragraph>
-      <Signature>&mdash; Ihr Harry Tischhauser</Signature>
+      `}>I am looking forward to sharing my experiences with you!</Paragraph>
+      <Signature>&mdash; Cserei Zoltán</Signature>
     </Wrapper>
   )
 }

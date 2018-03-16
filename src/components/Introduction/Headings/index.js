@@ -39,10 +39,11 @@ const BrandHeading = styled('h1')`
 const Headings = () => {
   return (
     <Wrapper>
-      <BrandHeading>beraten</BrandHeading>
-      <BrandHeading>verbinden</BrandHeading>
-      <BrandHeading>stärken<Blink>_</Blink></BrandHeading>
-      <Tagline>im Verwaltungsrat, bei Geschäftsleitung, Mitarbeitern und im Team</Tagline>
+      <BrandHeading>imagine</BrandHeading>
+      <BrandHeading>see</BrandHeading>
+      <BrandHeading>breathe</BrandHeading>
+      <BrandHeading>move<Blink>_</Blink></BrandHeading>
+      <Tagline>or how I approach turning fragile ideas into products</Tagline>
     </Wrapper>
   )
 }

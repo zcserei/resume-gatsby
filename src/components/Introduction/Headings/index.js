@@ -11,7 +11,7 @@ const Wrapper = styled('div')`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   width: 100%;
   @media (min-width: 415px) {
     margin: 1rem 0 0 1rem;

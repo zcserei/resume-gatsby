@@ -9,6 +9,7 @@ const Wrapper = styled('div')`
   display: flex;
   padding: 1rem;
   width: 100%;
+  margin-bottom: 1rem;
   .offset {
     display: none;
   }
@@ -23,6 +24,7 @@ const Wrapper = styled('div')`
 
   @media (min-width: 769px) {
     padding: 2rem;
+    margin-bottom: 1rem;
     .offset {
       display: flex;
     }

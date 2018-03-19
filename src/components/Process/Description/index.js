@@ -9,6 +9,7 @@ const Wrapper = styled('div')`
   display: flex;
   padding: 1rem;
   width: 100%;
+  margin-bottom: 1rem;
   .offset {
     display: none;
   }

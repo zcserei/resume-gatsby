@@ -7,8 +7,9 @@ import theme from '../../../utils/theme'
 
 const Wrapper = styled('div')`
   width: 100%;
+  margin-bottom: 2rem;
   @media (min-width: 769px) {
-    margin: 1rem 0;
+    margin: 1rem 0 3rem 0;
   }
 `
 const ListItem = styled('li')`

@@ -19,7 +19,7 @@ const Wrapper = styled('div')`
 
   @media (min-width: 769px) {
     padding: 2rem;
-    margin: 0;
+    margin: 0 0 2rem 0;
   }
   
 `

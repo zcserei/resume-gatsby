@@ -7,8 +7,9 @@ import theme from '../../../utils/theme'
 
 const Wrapper = styled('div')`
   width: 100%;
+  margin-bottom: 2rem;
   @media (min-width: 769px) {
-    margin: 1rem 0;
+    margin: 1rem 0 2rem;
   }
 `
 const ListItem = styled('li')`
@@ -52,14 +53,12 @@ const Details = styled('div')`
 const Subtitle = styled('h2')`
   color: ${props => props.theme.colors.white};
   margin: 0 1rem 1rem 1rem;
-  margin-bottom: 1rem;
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.5;
 
   @media (min-width: 737px) {
     margin-left: 2rem;
-    margin-top: 1rem;
   }
 
   @media (min-width: 769px) {

@@ -1,6 +1,6 @@
-# Cserei ZOltán's resume
+# Cserei Zoltán's resume
 
-An overiew of what I've done and what I do.
+An overiew of what I've done and what I do. Hire me, I'm cool.
 
 ***
 

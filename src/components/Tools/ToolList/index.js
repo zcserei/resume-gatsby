@@ -64,7 +64,7 @@ const ToolList = () => {
         </ListItem>
         <ListItem>
           <Bullet>Libraries</Bullet>
-          <Details>React, Redux, redux-saga, Gatsby, Node, Express, TensorFlow</Details>
+          <Details>React, React Native, Redux, redux-saga, Gatsby, Node, Express, TensorFlow</Details>
         </ListItem>
         <ListItem>
           <Bullet>Testing</Bullet>

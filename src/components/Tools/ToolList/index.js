@@ -56,7 +56,7 @@ const ToolList = () => {
       <List>
         <ListItem>
           <Bullet>Languages</Bullet>
-          <Details>JavaScript, Python, Go, Ruby, CSS, SCSS, SVG, JSON, YAML</Details>
+          <Details>JavaScript, Python, Solidity, Ruby, GraphQL, CSS, SCSS, SVG, JSON, YAML</Details>
         </ListItem>
         <ListItem>
           <Bullet>Utilities</Bullet>
@@ -80,7 +80,7 @@ const ToolList = () => {
         </ListItem>
         <ListItem>
           <Bullet>Environment</Bullet>
-          <Details>Docker, Vagrant, Firebase, AWS</Details>
+          <Details>Docker, Vagrant, Firebase, AWS, EVM</Details>
         </ListItem>
         <ListItem>
           <Bullet>Agile</Bullet>

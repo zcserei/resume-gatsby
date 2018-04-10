@@ -55,7 +55,7 @@ const Facts = () => {
       <List>
         <ListItem>
           <Bullet>03</Bullet>
-          <Details>three years ago I dropped out and started my own software company</Details>
+          <Details>three and a half years ago I started my own development agency</Details>
         </ListItem>
         <ListItem>
           <Bullet>05</Bullet>

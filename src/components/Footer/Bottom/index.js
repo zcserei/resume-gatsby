@@ -56,7 +56,7 @@ const Bottom = () => {
       <FlexElement>
         <Subtitle>Personal</Subtitle>
         <Paragraph>Cserei Zoltán</Paragraph>
-        <Paragraph>Hungary, 1062 Budapest, Délibáb 18/b</Paragraph>
+        <Paragraph>London W9 1NZ</Paragraph>
         <Paragraph>Mobile: <Link href='tel:0040740489499'>+40-740-489-499</Link></Paragraph>
         <Paragraph>E-mail: <Link href='mailto:z@holist.io'>z@holist.io</Link></Paragraph>
       </FlexElement>

@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <Wrapper>
       <Name>Cserei Zoltán</Name>
-      <Motto>full stack JavaScript developer based in London</Motto>
+      <Motto>hacker, hustler, master procrastinator</Motto>
     </Wrapper>
   )
 }

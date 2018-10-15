@@ -52,6 +52,12 @@ const Experience = () => {
       <Subtitle>Work experience</Subtitle>
       <List>
         <ListItem>
+          <Period>april 2014 &mdash; october 2014</Period>
+          <Organization>Bizzby</Organization>
+          <Position>Senior Software Engineer</Position>
+          <Description>Bizzby is a marketplace connecting customers to various services including smart device installations, plumbing or cleaning. My primary activity revolved around building a new interface for the web and mobile apps used by the service providers and business administrators.</Description>
+        </ListItem>
+        <ListItem>
           <Period>2014 &mdash; <em>today</em></Period>
           <Organization>Holistio</Organization>
           <Position>Founder &amp; CEO</Position>
